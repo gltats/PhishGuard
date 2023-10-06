@@ -33,14 +33,7 @@ p {
     margin-top: 20px;
 }
 
-/* Style for the embedded YouTube video */
-#ytplayer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
 
 /* Style for "You have been hacked" text */
 .moving-text {
