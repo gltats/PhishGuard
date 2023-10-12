@@ -29,7 +29,7 @@ p {
 .video-container {
     position: relative;
     overflow: hidden;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+    padding-bottom: 1rem; 
     margin-top: 20px;
 }
 
@@ -45,6 +45,12 @@ p {
     opacity: 0.5; /* Make text slightly transparent */
     animation: moveSideways 10s linear infinite alternate; /* Animation for sideways movement */
 	color: aquamarine;
+}
+
+#counter
+{
+	text-align: right;
+	margin-right: 20rem;
 }
 
 /* Animation for sideways movement */

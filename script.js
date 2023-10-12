@@ -10,17 +10,3 @@ for (let i = 0; i < numRows; i++) {
     movingText.appendChild(row);
 }
 
-// Load visitor count from localStorage or initialize it to 0
-let visitorCount = localStorage.getItem('visitorCount');
-if (visitorCount === null) {
-    visitorCount = 0;
-}
-visitorCount = parseInt(visitorCount, 10);
-
-// Increment the visitor count for each page load
-visitorCount++;
-localStorage.setItem('visitorCount', visitorCount);
-
-// Update the counter element
-const counterElement = document.getElementById('counter');
-counterElement.innerText = `Unique Visitors: ${visitorCount}`;
